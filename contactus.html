@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kenzie's closet- About Us</title>
+    
+   <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background: rgb(0, 0, 0);
+    
+}
+
+.logo{
+    width: 70px;
+    height: 45px;
+}
+
+.links{
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+    
+}
+.home, .aboutus, .contact, .designs{
+   color:  rgb(255, 255, 255);
+   font-weight: 600;
+   font-size: 25px;
+   text-decoration: none;
+   font-family: 'Courier New', Courier, monospace;
+}
+.upbuttons{
+    display: flex;
+    gap: 20px;
+}
+
+.loginbtn{
+    background-color: white;
+     border: none;
+}
+.signupbtn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+.loginbtn, .signupbtn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+.firsttext{
+    font-size: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(255, 255, 255);
+    font-style: bold;
+    padding: 10px 5px;
+}
+.logoarea{
+    display: flex;
+    gap: 20px;
+
+}
+.fillinboxes{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.contactarea{
+    justify-content: center;
+    text-align: center;
+    padding: 30px 10px;
+    background: url(bgimage.png) ;
+}
+.contacttext h1{
+    font-size: 50px;
+    color: rgb(54, 50, 44);
+    font-weight: 800;
+
+}
+
+.contacttext p{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: rgb(134, 122, 106);
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    }
+
+.fullname, .phonenumber,
+.email{
+        width: 100%;
+  max-width: 400px;
+}
+input{
+  width: 400px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(223, 220, 220);
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(114, 113, 113);
+  height: 70px;
+}
+.info{
+    height: 300px;
+}
+
+.submitbtn{
+    border-radius: 5px;
+    border: none;
+    color: rgb(192, 190, 187);
+    background-color: rgb(16, 16, 16);
+    width: 150px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+
+}
+   </style> 
+</head>
+
+<body>
+    <header class="header">
+        <div class="logoarea">
+        <img src="logo2.png" alt="logo" class="logo">
+        <div class="firsttext">
+            <h1>kenzie's closet ⁂</h1>
+        </div>
+        </div>
+        <nav class="links">
+            <a href="index.html" class="home">Home</a>
+            <a href="aboutus.html" class="aboutus">About Us</a>
+            <a href="designs.html" class="designs">Our Designs</a>
+            <a href="contactus.html" class="contact">Contact Us</a>            
+        </nav>
+
+        <div class="upbuttons">
+        <button class="loginbtn">Get Started</button>
+        <button class="signupbtn">Try for Free</button> 
+        </div>
+    </header>
+    <section class="contactarea">
+        <div class="contacttext">
+        <h1>GET IN TOUCH</h1>
+        <br>
+        <p>Phone: +234 810 384 4836</p>
+        
+        <p>Email: pivy2006@gmail.com</p>
+        
+        <p>Address: 12 Iko Ekwa Road, Eket, Akwa Ibom State.</p>
+            </div>
+
+            <div class="fillinboxes">
+                <div class="leftside">
+                <form class="fullname">
+                <input type="text" id="fullname" placeholder="Enter your Full Name here" />
+             </form>
+             <form class="phonenumber">
+          <input type="tel" id="phonenumber" placeholder="Enter your Phone Number here" />
+        </form>
+        <form class="email">
+          <input type="email" id="email" placeholder="Enter your Email here" />
+        </form>
+                </div>
+            <div class="rightside">
+                <form class="info">
+          <input type="text" id="info" placeholder="Enter your Message here" class="info" />
+        </form>
+            </div>
+            </div>
+            <a href="#" class="submitbtn">Submit</a>
+    </section>
+</body>
+</html>

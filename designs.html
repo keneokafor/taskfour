@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kenzie's closet- About Us</title>
+    
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background: rgb(0, 0, 0);
+    
+}
+
+.logo{
+    width: 70px;
+    height: 45px;
+}
+
+.links{
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+    
+}
+.home, .aboutus, .contact, .designs{
+   color:  rgb(255, 255, 255);
+   font-weight: 600;
+   font-size: 25px;
+   text-decoration: none;
+   font-family: 'Courier New', Courier, monospace;
+}
+.upbuttons{
+    display: flex;
+    gap: 20px;
+}
+
+.loginbtn{
+    background-color: white;
+     border: none;
+}
+.signupbtn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+.loginbtn, .signupbtn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+.firsttext{
+    font-size: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(255, 255, 255);
+    font-style: bold;
+    padding: 10px 5px;
+}
+.logoarea{
+    display: flex;
+    gap: 20px;
+
+}
+
+.designarea{
+    background: url(bgimage5.png);
+    padding: 20px 30px;
+}
+.designtext h1{
+    font-size: 55px;
+    color: rgb(51, 33, 11);
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.designtext p{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: rgb(19, 19, 18);
+    text-align: center;
+}
+.designtext{
+    justify-content: center;
+}
+
+img{
+    width: 350px;
+    height: 400px;
+}
+.photoarea{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 50px 5px;
+}
+
+</style>
+
+</head>
+<body>
+    <header class="header">
+        <div class="logoarea">
+        <img src="logo2.png" alt="logo" class="logo">
+        <div class="firsttext">
+            <h1>kenzie's closet ⁂</h1>
+        </div>
+        </div>
+        <nav class="links">
+            <a href="index.html" class="home">Home</a>
+            <a href="aboutus.html" class="aboutus">About Us</a>
+            <a href="designs.html" class="designs">Our Designs</a>
+            <a href="contactus.html" class="contact">Contact Us</a>            
+        </nav>
+
+        <div class="upbuttons">
+        <button class="loginbtn">Get Started</button>
+        <button class="signupbtn">Try for Free</button> 
+        </div>
+    </header>
+
+    <section class="designarea">
+        <div class="designtext">
+        <h1>Our Designs.</h1>
+            <br>
+        <p>where quality meets style! </p>
+        </div>
+
+    <div class="photoarea">
+        <img src="suits.png" alt="suit">
+        <img src="lounge.png" alt="lounge">
+        <img src="winter.png" alt="winter">
+        <img src="swimwear.png" alt="swimwear">
+        
+
+    </div>
+    </section>
+    
+</body>
+</html>
