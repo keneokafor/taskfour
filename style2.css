@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 50px;
+    background: rgb(0, 0, 0);
+}
+
+.logo{
+    width: 70px;
+    height: 45px;
+}
+
+.links{
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+}
+
+.home, .aboutus, .contact, .designs{
+   color:  rgb(255, 255, 255);
+   font-weight: 600;
+   font-size: 25px;
+   text-decoration: none;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.upbuttons, .logoarea{
+    display: flex;
+    gap: 20px;
+}
+
+.loginbtn{
+    background-color: white;
+    border: none;
+}
+
+.signupbtn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.loginbtn, .signupbtn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.firsttext{
+    font-size: 7px;
+    font-family: 'Courier New', Courier, monospace;
+    color:  rgb(255, 255, 255);
+    font-style: bold;
+    padding: 10px 5px;
+}
+
+
+.aboutusarea{
+    padding: 50px 0px;
+    background: url(bgimage.png);
+}
+
+.topsection,
+.bottomsection{
+    display: flex;
+    gap: 50px;
+    padding: 10px 200px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.text pre{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.aboutus2{
+    background: url(bgimage4.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.typeetwo, .typetwo{
+    color: rgb(245, 232, 210);
+    font-size: 36px;
+}
+
+.typeeone, .typeone{
+    color: rgb(47, 42, 28);
+    font-size: 36px;
+}
